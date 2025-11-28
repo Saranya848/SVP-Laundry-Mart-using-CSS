@@ -1,0 +1,110 @@
+body{
+    background-color: rgb(248, 245, 197);
+    margin: 0px;
+    color: black;
+}
+/* main{
+    margin-top: 60%;
+} */
+ a{
+    
+    text-decoration: none;
+ }
+ hr{
+    
+    border: 1px solid grey;
+ }
+ section{
+    padding: 40px;
+    margin: 30px;
+    /* margin: 30px; */
+ }
+nav{
+    width: 100%;
+    margin-top: -20px;
+    background-color: black;
+    position: fixed;
+    display: flex;
+    
+    padding: 30px;
+}
+.nav-list{
+    width: 70%;
+    padding: 10px;
+    margin: 10px;
+    /* background-color:aquamarine; */
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.nav-list:hover{
+    color: red;
+    cursor: pointer;
+    background-color: rgb(180, 128, 229);
+}
+.username{
+    display: right;
+    background-color: rgb(198, 218, 218);
+    color: rgb(24, 152, 211);
+    height: 2rem;
+    width: 5rem;
+    border: 0px;
+    border-radius: 15px;
+}
+.logo{
+    
+    width: 50px;
+}
+.container{
+    margin: 1%;
+    padding: 5%;
+    display: flex;
+}
+.cleft{
+    width: 50%;
+    padding: 40px;
+    text-align: left;
+    margin-top: 10%;
+    /* background-color: rgb(129, 50, 63); */
+}
+.cleft p{
+    color: gray;
+    font-weight: bold;
+}
+span{
+    color: rgb(15, 106, 167);
+}
+.cright{
+    /* background-color: pink; */
+    margin: auto;
+    margin-top: 10%;
+    width: 30%;
+}
+.cright img{
+    width:300px;
+}
+.bookbtn{
+    background-color: rgb(198, 218, 218);
+    width: 40%;
+    height: 20%;
+    color: white;
+    font-size: 1rem;
+    border: 0;
+    border-radius: 20px;
+}
+.bookbtn:hover{
+    font-size: 1.09rem;
+    cursor: pointer;
+    width: 42%;
+    height: 22%;
+}
+h1{
+    font-size: 2rem;
+}
+h2{
+    font-size: 1.8rem;
+    text-align: center;
+}
+h3{
+    font-size: 1.4rem;
+}
